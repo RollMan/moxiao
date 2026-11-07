@@ -1,0 +1,869 @@
+{
+ "R101": {
+  "value": "1k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "入力直列抵抗",
+  "pins": {
+   "1": "WIP_L",
+   "2": "INP_L"
+  }
+ },
+ "C101": {
+  "value": "100p",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "RD15N101J1HL2L (NP0)",
+  "shop": "秋月 104061",
+  "desc": "RFフィルタ",
+  "pins": {
+   "1": "INP_L",
+   "2": "SGND"
+  }
+ },
+ "R102": {
+  "value": "22k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 22kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "DCサーボ注入",
+  "pins": {
+   "1": "INP_L",
+   "2": "SRV_L"
+  }
+ },
+ "U1": {
+  "value": "MUSES8920AE",
+  "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+  "mpn": "MUSES8920AE",
+  "shop": "秋月 118179",
+  "desc": "電圧増幅",
+  "pins": {
+   "3": "INP_L",
+   "2": "INM_L",
+   "1": "OA_L",
+   "5": "INP_R",
+   "6": "INM_R",
+   "7": "OA_R",
+   "8": "+12V",
+   "4": "-12V"
+  }
+ },
+ "R103": {
+  "value": "1k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "帰還 Rg",
+  "pins": {
+   "1": "INM_L",
+   "2": "SGND"
+  }
+ },
+ "R104": {
+  "value": "3.9k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 3.9kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "帰還 Rf (4.9倍)",
+  "pins": {
+   "1": "INM_L",
+   "2": "OUT_L"
+  }
+ },
+ "C102": {
+  "value": "22p",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "RD15N220J1HL2L (NP0)",
+  "shop": "秋月 104060",
+  "desc": "位相補償",
+  "pins": {
+   "1": "INM_L",
+   "2": "OUT_L"
+  }
+ },
+ "R105": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "バッファ入力アイソレーション",
+  "pins": {
+   "1": "OA_L",
+   "2": "BIN_L"
+  }
+ },
+ "Q101": {
+  "value": "TMBT3906",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TMBT3906",
+  "shop": "秋月 117433",
+  "desc": "ドライバ PNP",
+  "pins": {
+   "1": "BIN_L",
+   "2": "E1_L",
+   "3": "-12V"
+  }
+ },
+ "Q102": {
+  "value": "TMBT3904",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TMBT3904",
+  "shop": "秋月 117432",
+  "desc": "ドライバ NPN",
+  "pins": {
+   "1": "BIN_L",
+   "2": "E2_L",
+   "3": "+12V"
+  }
+ },
+ "D101": {
+  "value": "S-562T",
+  "fp": "hpamp:CRD_SEMITEC_S-series",
+  "mpn": "SEMITEC S-562T (5.6mA)",
+  "shop": "秋月 106282",
+  "desc": "CRD ドライババイアス",
+  "pins": {
+   "2": "+12V",
+   "1": "E1_L"
+  }
+ },
+ "D102": {
+  "value": "S-562T",
+  "fp": "hpamp:CRD_SEMITEC_S-series",
+  "mpn": "SEMITEC S-562T (5.6mA)",
+  "shop": "秋月 106282",
+  "desc": "CRD ドライババイアス",
+  "pins": {
+   "2": "E2_L",
+   "1": "-12V"
+  }
+ },
+ "R106": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "ベースストッパ",
+  "pins": {
+   "1": "E1_L",
+   "2": "B3_L"
+  }
+ },
+ "R107": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "ベースストッパ",
+  "pins": {
+   "1": "E2_L",
+   "2": "B4_L"
+  }
+ },
+ "Q103": {
+  "value": "TTC501",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TTC501 (SOT-23F)",
+  "shop": "秋月 129485",
+  "desc": "出力 NPN",
+  "pins": {
+   "1": "B3_L",
+   "2": "X3_L",
+   "3": "+12V"
+  }
+ },
+ "Q104": {
+  "value": "TTA501",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TTA501 (SOT-23F)",
+  "shop": "秋月 129487",
+  "desc": "出力 PNP",
+  "pins": {
+   "1": "B4_L",
+   "2": "X4_L",
+   "3": "-12V"
+  }
+ },
+ "R108": {
+  "value": "10",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 10Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "エミッタ抵抗",
+  "pins": {
+   "1": "X3_L",
+   "2": "OUT_L"
+  }
+ },
+ "R109": {
+  "value": "10",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 10Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "エミッタ抵抗",
+  "pins": {
+   "1": "OUT_L",
+   "2": "X4_L"
+  }
+ },
+ "R110": {
+  "value": "1M",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1MΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "サーボ積分抵抗",
+  "pins": {
+   "1": "OUT_L",
+   "2": "SM_L"
+  }
+ },
+ "C103": {
+  "value": "1u",
+  "fp": "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+  "mpn": "MEM105J101RB-5 (ポリエステル 100V)",
+  "shop": "秋月 114602",
+  "desc": "サーボ積分コンデンサ",
+  "pins": {
+   "1": "SM_L",
+   "2": "SRV_L"
+  }
+ },
+ "U2": {
+  "value": "TL072",
+  "fp": "Package_DIP:DIP-8_W7.62mm",
+  "mpn": "TL072CP / LF412 / NJM072BD など (JFET 入力, DIP8)",
+  "shop": "秋月など (DIP8, 8P ソケット推奨)",
+  "desc": "DCサーボ積分器 (汎用 JFET オペアンプ)",
+  "pins": {
+   "3": "SGND",
+   "2": "SM_L",
+   "1": "SRV_L",
+   "5": "SGND",
+   "6": "SM_R",
+   "7": "SRV_R",
+   "8": "+12V",
+   "4": "-12V"
+  }
+ },
+ "R201": {
+  "value": "1k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "入力直列抵抗",
+  "pins": {
+   "1": "WIP_R",
+   "2": "INP_R"
+  }
+ },
+ "C201": {
+  "value": "100p",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "RD15N101J1HL2L (NP0)",
+  "shop": "秋月 104061",
+  "desc": "RFフィルタ",
+  "pins": {
+   "1": "INP_R",
+   "2": "SGND"
+  }
+ },
+ "R202": {
+  "value": "22k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 22kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "DCサーボ注入",
+  "pins": {
+   "1": "INP_R",
+   "2": "SRV_R"
+  }
+ },
+ "R203": {
+  "value": "1k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "帰還 Rg",
+  "pins": {
+   "1": "INM_R",
+   "2": "SGND"
+  }
+ },
+ "R204": {
+  "value": "3.9k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 3.9kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "帰還 Rf (4.9倍)",
+  "pins": {
+   "1": "INM_R",
+   "2": "OUT_R"
+  }
+ },
+ "C202": {
+  "value": "22p",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "RD15N220J1HL2L (NP0)",
+  "shop": "秋月 104060",
+  "desc": "位相補償",
+  "pins": {
+   "1": "INM_R",
+   "2": "OUT_R"
+  }
+ },
+ "R205": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "バッファ入力アイソレーション",
+  "pins": {
+   "1": "OA_R",
+   "2": "BIN_R"
+  }
+ },
+ "Q201": {
+  "value": "TMBT3906",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TMBT3906",
+  "shop": "秋月 117433",
+  "desc": "ドライバ PNP",
+  "pins": {
+   "1": "BIN_R",
+   "2": "E1_R",
+   "3": "-12V"
+  }
+ },
+ "Q202": {
+  "value": "TMBT3904",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TMBT3904",
+  "shop": "秋月 117432",
+  "desc": "ドライバ NPN",
+  "pins": {
+   "1": "BIN_R",
+   "2": "E2_R",
+   "3": "+12V"
+  }
+ },
+ "D201": {
+  "value": "S-562T",
+  "fp": "hpamp:CRD_SEMITEC_S-series",
+  "mpn": "SEMITEC S-562T (5.6mA)",
+  "shop": "秋月 106282",
+  "desc": "CRD ドライババイアス",
+  "pins": {
+   "2": "+12V",
+   "1": "E1_R"
+  }
+ },
+ "D202": {
+  "value": "S-562T",
+  "fp": "hpamp:CRD_SEMITEC_S-series",
+  "mpn": "SEMITEC S-562T (5.6mA)",
+  "shop": "秋月 106282",
+  "desc": "CRD ドライババイアス",
+  "pins": {
+   "2": "E2_R",
+   "1": "-12V"
+  }
+ },
+ "R206": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "ベースストッパ",
+  "pins": {
+   "1": "E1_R",
+   "2": "B3_R"
+  }
+ },
+ "R207": {
+  "value": "100",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 100Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "ベースストッパ",
+  "pins": {
+   "1": "E2_R",
+   "2": "B4_R"
+  }
+ },
+ "Q203": {
+  "value": "TTC501",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TTC501 (SOT-23F)",
+  "shop": "秋月 129485",
+  "desc": "出力 NPN",
+  "pins": {
+   "1": "B3_R",
+   "2": "X3_R",
+   "3": "+12V"
+  }
+ },
+ "Q204": {
+  "value": "TTA501",
+  "fp": "hpamp:SOT-23_HandSolder",
+  "mpn": "Toshiba TTA501 (SOT-23F)",
+  "shop": "秋月 129487",
+  "desc": "出力 PNP",
+  "pins": {
+   "1": "B4_R",
+   "2": "X4_R",
+   "3": "-12V"
+  }
+ },
+ "R208": {
+  "value": "10",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 10Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "エミッタ抵抗",
+  "pins": {
+   "1": "X3_R",
+   "2": "OUT_R"
+  }
+ },
+ "R209": {
+  "value": "10",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 10Ω (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "エミッタ抵抗",
+  "pins": {
+   "1": "OUT_R",
+   "2": "X4_R"
+  }
+ },
+ "R210": {
+  "value": "1M",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 1MΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "サーボ積分抵抗",
+  "pins": {
+   "1": "OUT_R",
+   "2": "SM_R"
+  }
+ },
+ "C203": {
+  "value": "1u",
+  "fp": "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2",
+  "mpn": "MEM105J101RB-5 (ポリエステル 100V)",
+  "shop": "秋月 114602",
+  "desc": "サーボ積分コンデンサ",
+  "pins": {
+   "1": "SM_R",
+   "2": "SRV_R"
+  }
+ },
+ "J1": {
+  "value": "IN",
+  "fp": "hpamp:Jack_3.5mm_Marushin_MJ-8435",
+  "mpn": "マル信 MJ-8435",
+  "shop": "秋月 109060",
+  "desc": "入力ジャック",
+  "pins": {
+   "T": "IN_L",
+   "R": "IN_R",
+   "S": "SGND"
+  }
+ },
+ "RV1": {
+  "value": "10kA x2",
+  "fp": "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal",
+  "mpn": "ALPS RK0971220-F15-C0-A103",
+  "shop": "秋月 103604",
+  "desc": "音量 (入力アッテネータ)",
+  "pins": {
+   "3": "IN_L",
+   "2": "WIP_L",
+   "1": "SGND",
+   "6": "IN_R",
+   "5": "WIP_R",
+   "4": "SGND"
+  }
+ },
+ "J2": {
+  "value": "PHONES",
+  "fp": "hpamp:Jack_3.5mm_Marushin_MJ-8435",
+  "mpn": "マル信 MJ-8435",
+  "shop": "秋月 109060",
+  "desc": "ヘッドホン出力",
+  "pins": {
+   "T": "OUT_L",
+   "R": "OUT_R",
+   "S": "OGND"
+  }
+ },
+ "NT1": {
+  "value": "STAR",
+  "fp": "NetTie:NetTie-3_SMD_Pad2.0mm",
+  "mpn": "",
+  "shop": "",
+  "desc": "一点アース (SGND/PGND/OGND)",
+  "pins": {
+   "1": "SGND",
+   "2": "PGND",
+   "3": "OGND"
+  }
+ },
+ "C1": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "U1 V+ デカップリング",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C2": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "U1 V- デカップリング",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "C3": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "U2 V+ デカップリング",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C4": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "U2 V- デカップリング",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "C7": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力段 L V+ デカップリング",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C8": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力段 L V- デカップリング",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "C9": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力段 R V+ デカップリング",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C10": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力段 R V- デカップリング",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "C5": {
+  "value": "100u 25V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 25PX100MEFC5X11",
+  "shop": "秋月 117877",
+  "desc": "+12V バルク",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C6": {
+  "value": "100u 25V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 25PX100MEFC5X11",
+  "shop": "秋月 117877",
+  "desc": "-12V バルク",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "H3": {
+  "value": "M3",
+  "fp": "MountingHole:MountingHole_3.2mm_M3",
+  "mpn": "",
+  "shop": "",
+  "desc": "取付穴",
+  "pins": {}
+ },
+ "H4": {
+  "value": "M3",
+  "fp": "MountingHole:MountingHole_3.2mm_M3",
+  "mpn": "",
+  "shop": "",
+  "desc": "取付穴",
+  "pins": {}
+ },
+ "J301": {
+  "value": "DC IN 12V",
+  "fp": "hpamp_psu:DCJack_Marushin_MJ-179PH",
+  "mpn": "マル信 MJ-179PH (2.1mm, センター+)",
+  "shop": "秋月 106568",
+  "desc": "ACアダプタ入力 12V",
+  "pins": {
+   "1": "VIN_J",
+   "2": "VIN-"
+  }
+ },
+ "D301": {
+  "value": "1N5819",
+  "fp": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+  "mpn": "1N5819 / SB140 など (40V 1A, DO-41)",
+  "shop": "秋月・共立など (コード未確認)",
+  "desc": "逆接続保護",
+  "pins": {
+   "2": "VIN_J",
+   "1": "VIN+"
+  }
+ },
+ "C301": {
+  "value": "100u 25V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 25PX100MEFC5X11",
+  "shop": "秋月 117877",
+  "desc": "入力バルク",
+  "pins": {
+   "1": "VIN+",
+   "2": "VIN-"
+  }
+ },
+ "C302": {
+  "value": "4.7u 50V",
+  "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+  "mpn": "村田 RDEC71H475K2K1H03B (X7S, 5mm)",
+  "shop": "秋月 108154",
+  "desc": "DC-DC 入力 (推奨 3.3µF 低ESR 以上)",
+  "pins": {
+   "1": "VIN+",
+   "2": "VIN-"
+  }
+ },
+ "PS301": {
+  "value": "MCWI03-12D15",
+  "fp": "hpamp_psu:Minmax_MCWI03_SIP8",
+  "mpn": "Minmax MCWI03-12D15 (3W, 4.5-18V in, ±15V ±100mA, 絶縁)",
+  "shop": "秋月 106530",
+  "desc": "絶縁 DC-DC",
+  "pins": {
+   "2": "VIN+",
+   "1": "VIN-",
+   "6": "+15V",
+   "7": "PGND",
+   "8": "-15V"
+  }
+ },
+ "C303": {
+  "value": "4.7u 50V",
+  "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+  "mpn": "村田 RDEC71H475K2K1H03B (X7S, 5mm)",
+  "shop": "秋月 108154",
+  "desc": "DC-DC 出力",
+  "pins": {
+   "1": "+15V",
+   "2": "PGND"
+  }
+ },
+ "C304": {
+  "value": "4.7u 50V",
+  "fp": "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+  "mpn": "村田 RDEC71H475K2K1H03B (X7S, 5mm)",
+  "shop": "秋月 108154",
+  "desc": "DC-DC 出力",
+  "pins": {
+   "1": "PGND",
+   "2": "-15V"
+  }
+ },
+ "L301": {
+  "value": "10uH",
+  "fp": "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC",
+  "mpn": "AL0510-100K (10µH 250mΩ)",
+  "shop": "秋月 104922",
+  "desc": "LC フィルタ",
+  "pins": {
+   "1": "+15V",
+   "2": "P15F"
+  }
+ },
+ "L302": {
+  "value": "10uH",
+  "fp": "Inductor_THT:L_Axial_L12.0mm_D5.0mm_P15.24mm_Horizontal_Fastron_MISC",
+  "mpn": "AL0510-100K (10µH 250mΩ)",
+  "shop": "秋月 104922",
+  "desc": "LC フィルタ",
+  "pins": {
+   "1": "-15V",
+   "2": "N15F"
+  }
+ },
+ "C305": {
+  "value": "33u 50V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 50PX33MEFC5X11",
+  "shop": "秋月 117901",
+  "desc": "LC フィルタ (DC-DC 容量負荷 ≤47µF)",
+  "pins": {
+   "1": "P15F",
+   "2": "PGND"
+  }
+ },
+ "C306": {
+  "value": "33u 50V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 50PX33MEFC5X11",
+  "shop": "秋月 117901",
+  "desc": "LC フィルタ (DC-DC 容量負荷 ≤47µF)",
+  "pins": {
+   "1": "PGND",
+   "2": "N15F"
+  }
+ },
+ "U301": {
+  "value": "LM78L12",
+  "fp": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+  "mpn": "LM78L12 (TO-92)",
+  "shop": "秋月 113464",
+  "desc": "+12V レギュレータ",
+  "pins": {
+   "3": "P15F",
+   "2": "PGND",
+   "1": "+12V"
+  }
+ },
+ "U302": {
+  "value": "LM79L12",
+  "fp": "Package_TO_SOT_THT:TO-92_Inline_Wide",
+  "mpn": "LM79L12 (TO-92)",
+  "shop": "秋月 113467",
+  "desc": "-12V レギュレータ",
+  "pins": {
+   "2": "N15F",
+   "1": "PGND",
+   "3": "-12V"
+  }
+ },
+ "C307": {
+  "value": "100u 25V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 25PX100MEFC5X11",
+  "shop": "秋月 117877",
+  "desc": "出力",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C308": {
+  "value": "100u 25V",
+  "fp": "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm",
+  "mpn": "ルビコン 25PX100MEFC5X11",
+  "shop": "秋月 117877",
+  "desc": "出力",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "C309": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力デカップリング",
+  "pins": {
+   "1": "+12V",
+   "2": "PGND"
+  }
+ },
+ "C310": {
+  "value": "100n",
+  "fp": "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm",
+  "mpn": "X7R 50V 2.54mm",
+  "shop": "秋月 113582",
+  "desc": "出力デカップリング",
+  "pins": {
+   "1": "PGND",
+   "2": "-12V"
+  }
+ },
+ "R301": {
+  "value": "4.7k",
+  "fp": "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+  "mpn": "金属皮膜 1/4W 1% 4.7kΩ (標準サイズ φ2.5×6.3mm)",
+  "shop": "Amazon 等の抵抗セット",
+  "desc": "LED 電流制限 (約 2mA)",
+  "pins": {
+   "1": "+12V",
+   "2": "LED_A"
+  }
+ },
+ "LED301": {
+  "value": "LED",
+  "fp": "LED_THT:LED_D3.0mm",
+  "mpn": "3mm LED",
+  "shop": "",
+  "desc": "電源表示",
+  "pins": {
+   "2": "LED_A",
+   "1": "PGND"
+  }
+ },
+ "H1": {
+  "value": "M3",
+  "fp": "MountingHole:MountingHole_3.2mm_M3",
+  "mpn": "",
+  "shop": "",
+  "desc": "取付穴",
+  "pins": {}
+ },
+ "H2": {
+  "value": "M3",
+  "fp": "MountingHole:MountingHole_3.2mm_M3",
+  "mpn": "",
+  "shop": "",
+  "desc": "取付穴",
+  "pins": {}
+ }
+}

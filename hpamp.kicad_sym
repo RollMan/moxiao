@@ -1,0 +1,208 @@
+(kicad_symbol_lib (version 20220914) (generator hpamp_gen)
+  (symbol "SGND"
+  (power)
+  (pin_names
+    (offset 0))
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "#PWR"
+    (at 0 -6.35 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Value" "SGND"
+    (at 0 -3.81 0)
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Footprint" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_keywords" "global power"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_description" "Power symbol: SGND"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (symbol "SGND_0_1"
+    (polyline
+      (pts
+        (xy 0 0)
+        (xy 0 -1.27)
+        (xy 1.27 -1.27)
+        (xy 0 -2.54)
+        (xy -1.27 -1.27)
+        (xy 0 -1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "SGND_1_1"
+    (pin power_in line
+      (at 0 0 270)
+      (length 0) hide
+      (name "SGND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))))
+  (symbol "PGND"
+  (power)
+  (pin_names
+    (offset 0))
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "#PWR"
+    (at 0 -6.35 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Value" "PGND"
+    (at 0 -3.81 0)
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Footprint" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_keywords" "global power"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_description" "Power symbol: PGND"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (symbol "PGND_0_1"
+    (polyline
+      (pts
+        (xy 0 0)
+        (xy 0 -1.27)
+        (xy 1.27 -1.27)
+        (xy 0 -2.54)
+        (xy -1.27 -1.27)
+        (xy 0 -1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "PGND_1_1"
+    (pin power_in line
+      (at 0 0 270)
+      (length 0) hide
+      (name "PGND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))))
+  (symbol "OGND"
+  (power)
+  (pin_names
+    (offset 0))
+  (in_bom yes)
+  (on_board yes)
+  (property "Reference" "#PWR"
+    (at 0 -6.35 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Value" "OGND"
+    (at 0 -3.81 0)
+    (effects
+      (font
+        (size 1.27 1.27))))
+  (property "Footprint" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "Datasheet" ""
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_keywords" "global power"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (property "ki_description" "Power symbol: OGND"
+    (at 0 0 0)
+    (effects
+      (font
+        (size 1.27 1.27)) hide))
+  (symbol "OGND_0_1"
+    (polyline
+      (pts
+        (xy 0 0)
+        (xy 0 -1.27)
+        (xy 1.27 -1.27)
+        (xy 0 -2.54)
+        (xy -1.27 -1.27)
+        (xy 0 -1.27))
+      (stroke
+        (width 0)
+        (type default))
+      (fill
+        (type none))))
+  (symbol "OGND_1_1"
+    (pin power_in line
+      (at 0 0 270)
+      (length 0) hide
+      (name "OGND"
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (number "1"
+        (effects
+          (font
+            (size 1.27 1.27)))))))
+  (symbol "MCWI03-12D15" (in_bom yes) (on_board yes)
+    (property "Reference" "PS" (at -10.16 8.89 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Value" "MCWI03-12D15" (at -10.16 -8.89 0) (effects (font (size 1.27 1.27)) (justify left)))
+    (property "Footprint" "hpamp_psu:Minmax_MCWI03_SIP8" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://akizukidenshi.com/goodsaffix/MCWI03-12x.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (property "ki_description" "Minmax 3W isolated DC-DC, 4.5-18V in, +/-15V +/-100mA out" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+    (symbol "MCWI03-12D15_0_1"
+      (rectangle (start -10.16 7.62) (end 10.16 -7.62) (stroke (width 0.254) (type default)) (fill (type background)))
+      (polyline (pts (xy 0 7.62) (xy 0 -7.62)) (stroke (width 0) (type dash)) (fill (type none)))
+    )
+    (symbol "MCWI03-12D15_1_1"
+      (pin power_in line (at -12.7 5.08 0) (length 2.54) (name "+Vin" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+      (pin power_in line (at -12.7 -5.08 0) (length 2.54) (name "-Vin" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+      (pin input line (at -12.7 0 0) (length 2.54) (name "Ctrl" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+      (pin power_out line (at 12.7 5.08 180) (length 2.54) (name "+Vout" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+      (pin power_out line (at 12.7 0 180) (length 2.54) (name "Com" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+      (pin power_out line (at 12.7 -5.08 180) (length 2.54) (name "-Vout" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+      (pin no_connect line (at 0 -10.16 90) (length 2.54) (name "NC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+    )
+  )
+)
