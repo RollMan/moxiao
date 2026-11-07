@@ -5425,16 +5425,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 328.74) (xy 35.56 321.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59885958-80ba-42fb-a111-67cd25a70b2a")
-	)
-	(wire
-		(pts
 			(xy 228.6 318.58) (xy 228.6 331.28)
 		)
 		(stroke
@@ -5482,6 +5472,16 @@
 			(type default)
 		)
 		(uuid "5f2789ee-3bb8-453c-af08-61526b06164b")
+	)
+	(wire
+		(pts
+			(xy 33.02 327.66) (xy 33.02 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f80cb68-fe17-4b51-945d-f4ce6b45d83c")
 	)
 	(wire
 		(pts
@@ -5585,6 +5585,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 322.58) (xy 40.64 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709b8e1b-0477-427e-8848-b93fdf55062f")
+	)
+	(wire
+		(pts
 			(xy 162.56 351.6) (xy 170.18 351.6)
 		)
 		(stroke
@@ -5672,16 +5682,6 @@
 			(type default)
 		)
 		(uuid "7f3bd4d9-140e-4d10-98f8-aadf521dd186")
-	)
-	(wire
-		(pts
-			(xy 33.02 328.74) (xy 35.56 328.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "816dcbd7-e643-45c5-9eb7-71c0156de10b")
 	)
 	(wire
 		(pts
@@ -6065,6 +6065,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 322.58) (xy 40.64 321.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c834ab17-937b-4cd8-9883-01ae90b82a03")
+	)
+	(wire
+		(pts
 			(xy 170.18 310.96) (xy 187.96 310.96)
 		)
 		(stroke
@@ -6185,16 +6195,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 321.12) (xy 40.64 321.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe2eeb9-8fde-4e32-9ff0-bd90b41a2da6")
-	)
-	(wire
-		(pts
 			(xy 241.3 318.58) (xy 241.3 321.12)
 		)
 		(stroke
@@ -6225,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 333.82) (xy 35.56 341.44)
+			(xy 35.56 332.74) (xy 35.56 341.44)
 		)
 		(stroke
 			(width 0)
@@ -6385,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 333.82) (xy 35.56 333.82)
+			(xy 33.02 332.74) (xy 35.56 332.74)
 		)
 		(stroke
 			(width 0)
@@ -7312,130 +7312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 312.42 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0fa251bf-14cf-453f-8a4e-73e2f3f1016e")
-		(property "Reference" "C6"
-			(at 315.42 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u 25V"
-			(at 315.42 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ルビコン 25PX100MEFC5X11"
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Shop" "秋月"
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Akizuki #purchace" "5"
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Akizuki Code" "117877"
-			(at 312.42 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c51eff02-d72b-44d3-abbb-5719d4724d77")
-		)
-		(pin "2"
-			(uuid "63ad856b-72d6-44a5-9602-87ac6d1b0e01")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hpamp:PGND")
 		(at 248.92 331.28 0)
 		(unit 1)
@@ -7797,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 66.04 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7808,7 +7684,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "116263"
 			(at 66.04 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -7940,7 +7816,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 66.04 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -7951,7 +7827,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "116263"
 			(at 66.04 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 129487"
+		(property "Shop" "秋月"
 			(at 132.08 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8253,7 +8129,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 132.08 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8264,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "129487"
 			(at 132.08 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9241,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106282"
+		(property "Shop" "秋月"
 			(at 109.22 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9252,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 109.22 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -9263,7 +9139,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "106282"
 			(at 109.22 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -9310,7 +9186,7 @@
 				)
 			)
 		)
-		(property "Value" "PHONES"
+		(property "Value" "Jack"
 			(at 289.56 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9363,7 +9239,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 109060"
+		(property "Shop" "秋月"
 			(at 289.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9374,7 +9250,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 289.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9385,7 +9261,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "109060"
 			(at 289.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9888,7 +9764,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 104922"
+		(property "Shop" "秋月"
 			(at 158.75 351.6 0)
 			(hide yes)
 			(show_name no)
@@ -9899,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 158.75 351.6 90)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +9786,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "104922"
 			(at 158.75 351.6 90)
 			(hide yes)
 			(show_name no)
@@ -10165,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 129487"
+		(property "Shop" "秋月"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10176,7 +10052,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10187,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "129487"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10536,7 +10412,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106282"
+		(property "Shop" "秋月"
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10547,7 +10423,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 109.22 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -10558,7 +10434,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "106282"
 			(at 109.22 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -11035,7 +10911,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 117244"
+		(property "Shop" "秋月"
 			(at 44.45 321.12 0)
 			(hide yes)
 			(show_name no)
@@ -11046,7 +10922,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 44.45 321.12 0)
 			(hide yes)
 			(show_name no)
@@ -11057,7 +10933,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "117244"
 			(at 44.45 321.12 0)
 			(hide yes)
 			(show_name no)
@@ -11555,7 +11431,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 103604"
+		(property "Shop" "秋月"
 			(at 250.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11566,7 +11442,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "3"
 			(at 250.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11577,7 +11453,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "103604"
 			(at 250.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11966,7 +11842,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 117433"
+		(property "Shop" "秋月"
 			(at 106.68 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11977,7 +11853,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 106.68 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11988,7 +11864,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "117433"
 			(at 106.68 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12278,7 +12154,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106282"
+		(property "Shop" "秋月"
 			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12165,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 109.22 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -12300,7 +12176,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "106282"
 			(at 109.22 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -12678,7 +12554,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 129485"
+		(property "Shop" "秋月"
 			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12689,7 +12565,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12700,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "129485"
 			(at 132.08 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13875,7 +13751,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 113467"
+		(property "Shop" "秋月"
 			(at 195.58 351.6 0)
 			(hide yes)
 			(show_name no)
@@ -13886,7 +13762,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 195.58 351.6 0)
 			(hide yes)
 			(show_name no)
@@ -13897,7 +13773,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "113467"
 			(at 195.58 351.6 0)
 			(hide yes)
 			(show_name no)
@@ -14398,7 +14274,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 113464"
+		(property "Shop" "秋月"
 			(at 195.58 310.96 0)
 			(hide yes)
 			(show_name no)
@@ -14409,7 +14285,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 195.58 310.96 0)
 			(hide yes)
 			(show_name no)
@@ -14420,7 +14296,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "113464"
 			(at 195.58 310.96 0)
 			(hide yes)
 			(show_name no)
@@ -14525,7 +14401,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 118179"
+		(property "Shop" "秋月"
 			(at 76.2 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14536,7 +14412,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 76.2 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14547,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "118179"
 			(at 76.2 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14587,206 +14463,6 @@
 				(path "/a18132ed-0239-424c-8106-3322113a6950"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-12V")
-		(at 312.42 157.48 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80060e75-7443-4d43-86fb-ca371ab42003")
-		(property "Reference" "#PWR041"
-			(at 312.42 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-12V"
-			(at 312.42 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a1de66b-7222-447c-8b80-86c89ed5e452")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 294.64 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81bb533c-a70f-4fde-a174-9b7a77dc0e0b")
-		(property "Reference" "C5"
-			(at 297.64 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u 25V"
-			(at 297.64 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ルビコン 25PX100MEFC5X11"
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Shop" "秋月"
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Akizuki #purchace" "5"
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Akizuki Code" "117877"
-			(at 294.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b8905a2-d140-404d-8036-cdbe4f4bcae1")
-		)
-		(pin "2"
-			(uuid "f7c4b1db-9427-490a-93d0-133113cad8b3")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "C5")
-					(unit 1)
 				)
 			)
 		)
@@ -14986,82 +14662,6 @@
 			(project "hpamp_combo"
 				(path "/a18132ed-0239-424c-8106-3322113a6950"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 294.64 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "845fda98-08c2-4129-8f8e-4eee4586d0c7")
-		(property "Reference" "#PWR038"
-			(at 294.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 294.64 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4676a745-09bd-47a6-8784-1a0d480a8246")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -16109,7 +15709,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 104922"
+		(property "Shop" "秋月"
 			(at 158.75 310.96 0)
 			(hide yes)
 			(show_name no)
@@ -16120,7 +15720,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 158.75 310.96 90)
 			(hide yes)
 			(show_name no)
@@ -16131,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "104922"
 			(at 158.75 310.96 90)
 			(hide yes)
 			(show_name no)
@@ -16755,7 +16355,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 117432"
+		(property "Shop" "秋月"
 			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16766,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16777,7 +16377,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "117432"
 			(at 106.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -17683,82 +17283,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hpamp:PGND")
-		(at 294.64 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b96c3905-2f37-4c8f-84c0-b292885d7f98")
-		(property "Reference" "#PWR039"
-			(at 294.64 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 294.64 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "423a930a-ed9a-4ad2-933d-d9f40bf5aade")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 210.82 314.77 0)
 		(unit 1)
@@ -17958,7 +17482,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 129485"
+		(property "Shop" "秋月"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17969,7 +17493,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17980,7 +17504,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "129485"
 			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -18557,7 +18081,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 118179"
+		(property "Shop" "秋月"
 			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18568,7 +18092,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18579,7 +18103,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "118179"
 			(at 76.2 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -18823,7 +18347,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 118179"
+		(property "Shop" "秋月"
 			(at 203.2 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18834,7 +18358,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 203.2 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -18845,7 +18369,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "118179"
 			(at 203.2 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19100,7 +18624,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19111,7 +18635,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "116263"
 			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19657,7 +19181,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106282"
+		(property "Shop" "秋月"
 			(at 109.22 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19668,7 +19192,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 109.22 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -19679,7 +19203,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "106282"
 			(at 109.22 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -20152,7 +19676,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 117433"
+		(property "Shop" "秋月"
 			(at 106.68 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20163,7 +19687,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 106.68 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20174,7 +19698,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "117433"
 			(at 106.68 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20281,7 +19805,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 25.4 331.28 0)
+		(at 25.4 330.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20291,7 +19815,7 @@
 		(dnp no)
 		(uuid "df4d37df-6df6-4cbc-b4ab-2debc403a2ab")
 		(property "Reference" "J301"
-			(at 25.4 325.946 0)
+			(at 25.4 324.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20301,7 +19825,7 @@
 			)
 		)
 		(property "Value" "DC IN 12V"
-			(at 25.4 336.36 0)
+			(at 25.4 335.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20311,7 +19835,7 @@
 			)
 		)
 		(property "Footprint" "hpamp_psu:DCJack_Marushin_MJ-179PH"
-			(at 25.4 331.28 0)
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20322,7 +19846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 331.28 0)
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20333,7 +19857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 331.28 0)
+			(at 25.4 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20343,7 +19867,7 @@
 			)
 		)
 		(property "MPN" "マル信 MJ-179PH (2.1mm, センター+)"
-			(at 25.4 331.28 0)
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20353,8 +19877,8 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106568"
-			(at 25.4 331.28 0)
+		(property "Shop" "秋月"
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20364,8 +19888,8 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
-			(at 25.4 331.28 0)
+		(property "Akizuki #purchace" "1"
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20375,8 +19899,8 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
-			(at 25.4 331.28 0)
+		(property "Akizuki Code" "106568"
+			(at 25.4 330.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20705,7 +20229,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 117432"
+		(property "Shop" "秋月"
 			(at 106.68 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20716,7 +20240,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 106.68 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20727,7 +20251,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "117432"
 			(at 106.68 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21249,7 +20773,7 @@
 				)
 			)
 		)
-		(property "Value" "IN"
+		(property "Value" "Jack"
 			(at 198.12 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21302,7 +20826,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 109060"
+		(property "Shop" "秋月"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -21313,7 +20837,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "2"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -21324,7 +20848,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "109060"
 			(at 198.12 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -21779,7 +21303,7 @@
 				)
 			)
 		)
-		(property "Shop" "秋月 106530"
+		(property "Shop" "秋月"
 			(at 114.3 331.28 0)
 			(hide yes)
 			(show_name no)
@@ -21790,7 +21314,7 @@
 				)
 			)
 		)
-		(property "Akizuki #purchace" ""
+		(property "Akizuki #purchace" "1"
 			(at 114.3 331.28 0)
 			(hide yes)
 			(show_name no)
@@ -21801,7 +21325,7 @@
 				)
 			)
 		)
-		(property "Akizuki Code" ""
+		(property "Akizuki Code" "106530"
 			(at 114.3 331.28 0)
 			(hide yes)
 			(show_name no)
@@ -21837,82 +21361,6 @@
 			(project "hpamp_combo"
 				(path "/a18132ed-0239-424c-8106-3322113a6950"
 					(reference "PS301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hpamp:PGND")
-		(at 312.42 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb8b2734-2e92-4cad-a6b9-3ed1b13fe3ed")
-		(property "Reference" "#PWR040"
-			(at 312.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 312.42 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e911234-243d-4d43-acc8-a715d51669fc")
-		)
-		(instances
-			(project "hpamp_combo"
-				(path "/a18132ed-0239-424c-8106-3322113a6950"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
